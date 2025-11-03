@@ -1,0 +1,6 @@
+# Ignore local data
+data/
+*.parquet
+*.gzip
+*.png
+.idea
