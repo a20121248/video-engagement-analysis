@@ -1,6 +1,22 @@
-# Ignore local data
-data/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files (optional)
 *.parquet
 *.gzip
 *.png
-.idea
+*.csv
+data/processed/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
